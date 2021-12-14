@@ -5,7 +5,7 @@
 void main()
 {
     int gd=DETECT,gm;
-    int x1,y1,x2,y2,dx,dy,steps,xinc,yinc,i;
+    int x,y,x1,y1,x2,y2,dx,dy,steps,xinc,yinc,i;
     initgraph(&gd,&gm"c:\\TRUBOC3\\BGI");
     printf("Enter the starting coordinate");
     scanf("%d%d,&x1,&y1");
